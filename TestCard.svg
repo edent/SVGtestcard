@@ -165,6 +165,50 @@
 		rx="0"
 		ry="0" />
 
+	<defs>
+		<linearGradient id="whiteToBlack">
+			<stop offset="0%"  stop-color="#FFF"/>
+			<stop offset="100%" stop-color="#000"/>
+		</linearGradient>
+		<linearGradient id="greyToGrey">
+			<stop offset="0%"  stop-color="#343434"/>
+			<stop offset="100%" stop-color="#7d7d7d"/>
+		</linearGradient>
+		<linearGradient id="greenToPurple">
+			<stop offset="0%"  stop-color="#80BE41"/>
+			<stop offset="100%" stop-color="#8041BE"/>
+		</linearGradient>
+		<linearGradient id="blueToPink">
+			<stop offset="0%"  stop-color="#41BE80"/>
+			<stop offset="100%" stop-color="#BE4180"/>
+		</linearGradient>
+	</defs>
+
+	<rect
+		id="whiteToBlackBottom"
+		fill="url(#whiteToBlack)"
+		x="0" y="1050" width="900" height="30"/>
+	<rect
+		id="greyToGreyBottom"
+		fill="url(#greyToGrey)"
+		x="0" y="1020" width="900" height="30"/>
+	<rect
+		id="greenToPurpleBottom"
+		fill="url(#greenToPurple)"
+		x="1020" y="1050" width="840" height="30"/>
+	<rect
+		id="blueToPinkBottom"
+		fill="url(#blueToPink)"
+		x="1020" y="1020" width="840" height="30"/>
+
+	<rect
+		id="blackBottom"
+		fill="#000"
+		x="900" y="1020" width="120" height="60"/>
+	<polygon id="triangleBottom"
+		points="960,1080 990,1020 930,1020"
+		style="fill:#FFF" />
+
 
 	<rect
 		style="fill:#808080;"
