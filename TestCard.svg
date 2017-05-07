@@ -88,6 +88,84 @@
 		y="0"
 		rx="0"
 		ry="0" />
+	<polygon id="triangleTop"
+		points="960,0 990,60 930,60"
+		style="fill:#FFF" />
+
+	<rect
+		style="fill:#FF0;"
+		id="yellowBlockV"
+		width="60"
+		height="135"
+		x="1860"
+		y="65"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#0FF;"
+		id="cyanBlockV"
+		width="60"
+		height="135"
+		x="1860"
+		y="200"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#0F0;"
+		id="greenBlockV"
+		width="60"
+		height="135"
+		x="1860"
+		y="335"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#F0F;"
+		id="magentaBlockV"
+		width="60"
+		height="140"
+		x="1860"
+		y="470"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#F00;"
+		id="redBlockV"
+		width="60"
+		height="135"
+		x="1860"
+		y="610"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#00F;"
+		id="blueBlockV"
+		width="60"
+		height="135"
+		x="1860"
+		y="745"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#000;"
+		id="blackBlockV"
+		width="60"
+		height="135"
+		x="1860"
+		y="880"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#FFF;"
+		id="whiteBlockV"
+		width="60"
+		height="60"
+		x="1860"
+		y="1020"
+		rx="0"
+		ry="0" />
+
+
 	<rect
 		style="fill:#808080;"
 		id="greySquare"
