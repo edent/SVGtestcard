@@ -10,5 +10,6 @@ The majority of test cards that I found were low resolution, lossy, and had poor
 
 ## Inspiration
 
-* https://en.wikipedia.org/wiki/Test_Card_F
-* https://i.ytimg.com/vi/QFZHNFxKZ0I/maxresdefault.jpg
+* [BBC Advice on how to use the Test Card](https://archive.li/A4oCk) (Archived)
+* [Wikipedia article on Test Card F](https://en.wikipedia.org/wiki/Test_Card_F)
+* [Screenshot of Test Card F](https://i.ytimg.com/vi/QFZHNFxKZ0I/maxresdefault.jpg)
