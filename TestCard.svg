@@ -209,6 +209,52 @@
 		points="960,1080 990,1020 930,1020"
 		style="fill:#FFF" />
 
+	<rect
+		style="fill:#80BE41;"
+		id="greenLeft"
+		width="60"
+		height="192"
+		x="0"
+		y="828"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#8041BE;"
+		id="purpleLeft"
+		width="60"
+		height="192"
+		x="0"
+		y="636"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#0000;"
+		id="blackLeft"
+		width="60"
+		height="192"
+		x="0"
+		y="444"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#BE4180;"
+		id="pinkLeft"
+		width="60"
+		height="192"
+		x="0"
+		y="252"
+		rx="0"
+		ry="0" />
+	<rect
+		style="fill:#41BE80;"
+		id="mintLeft"
+		width="60"
+		height="192"
+		x="0"
+		y="60"
+		rx="0"
+		ry="0" />
+
 
 	<rect
 		style="fill:#808080;"
