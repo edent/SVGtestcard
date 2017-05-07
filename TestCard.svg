@@ -128,6 +128,9 @@
 		y="470"
 		rx="0"
 		ry="0" />
+
+
+
 	<rect
 		style="fill:#F00;"
 		id="redBlockV"
@@ -1336,6 +1339,26 @@
 		y="64"
 		rx="0"
 		ry="0" />
+
+	<polygon id="trapazoidRight"
+		points="1860,510 1920,540 1860,570 1800,540"
+		style="fill:#FFF" />
+	<polygon id="trapazoidRight1"
+		points="1740,510 1800,540 1740,570 1680,540"
+		style="fill:#FFF" />
+	<polygon id="trapazoidRight2"
+		points="1680,540 1620,570 1620,510"
+		style="fill:#FFF" />
+
+	<polygon id="trapazoidLeft"
+		points="60,510 0,540 60,570 120,540"
+		style="fill:#FFF" />
+	<polygon id="trapazoidLeft1"
+		points="180,510 120,540 180,570 240,540"
+		style="fill:#FFF" />
+	<polygon id="trapazoidLeft2"
+		points="240,540 300,570 300,510"
+		style="fill:#FFF" />
 	<circle
 		style="fill:#FFF;fill-"
 		id="centreCircle"
