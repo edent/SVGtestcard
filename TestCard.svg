@@ -947,6 +947,28 @@
 		cy="736"
 		r="10" />
 
+	<rect
+		style="fill:#fff;"
+		id="top-white"
+		width="400"
+		height="110"
+		x="760"
+		y="125"/>
+	<rect
+		style="fill:#000;"
+		id="top-black"
+		width="240"
+		height="50"
+		x="840"
+		y="155"/>
+	<rect
+		style="fill:#0f0;"
+		id="top-green-square"
+		width="40"
+		height="40"
+		x="940"
+		y="160"/>
+
 	<circle
 		style="fill:#FFF;"
 		id="centreCircle"
