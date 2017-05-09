@@ -1,0 +1,172 @@
+<?xml version="1.0" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+	width="32cm" height="18cm" viewBox="-5 -2.5 240 135">
+	<title>Widescreen test pattern</title>
+	<desc>Created 2009 March 28 by Lawrence D'Oliveiro &lt;ldo@geek-central.gen.nz&gt;,
+	released under the Creative Commons Attribution Share Alike (CC-BY-SA) licence</desc>
+	<defs>
+		<pattern id="bggrid" patternUnits="userSpaceOnUse"
+			x="0" y="0" width="10" height="10">
+			<rect x="0.5" y="0.5" width="9" height="9" fill="#808080"/>
+		</pattern>
+		<pattern id="horbordergrid" patternUnits="userSpaceOnUse"
+			x="0" y="0" width="20" height="20">
+			<rect x="0.5" y="10.5" width="9" height="9" fill="#000000"/>
+		</pattern>
+		<pattern id="vertbordergrid" patternUnits="userSpaceOnUse"
+			x="0" y="0" width="20" height="20">
+			<rect x="10.5" y="0.5" width="9" height="9" fill="#000000"/>
+		</pattern>
+
+		<pattern id="uppercheck" patternUnits="userSpaceOnUse"
+			x="60" y="30" width="13.8" height="10">
+			<rect x="0" y="0" width="6.9" height="10" fill="#000000"/>
+			<rect x="6.9" y="0" width="6.9" height="10" fill="#bebebe"/>
+		</pattern>
+		<pattern id="centergrid" patternUnits="userSpaceOnUse"
+			x="50" y="50" width="10" height="15">
+			<rect x="0" y="0" width="10" height="15" fill="#ffffff"/>
+			<rect x="0.5" y="0.5" width="9" height="14" fill="#000000"/>
+		</pattern>
+
+		<pattern id="grating5" patternUnits="userSpaceOnUse"
+			x="0" y="70" width="4.4" height="20">
+			<rect x="0" y="0" width="2.2" height="20" fill="#000000"/>
+			<rect x="2.2" y="0" width="2.2" height="20" fill="#ffffff"/>
+		</pattern>
+		<pattern id="grating10" patternUnits="userSpaceOnUse"
+			x="0" y="70" width="2.2" height="20">
+			<rect x="0" y="0" width="1.1" height="20" fill="#000000"/>
+			<rect x="1.1" y="0" width="1.1" height="20" fill="#ffffff"/>
+		</pattern>
+		<pattern id="grating15" patternUnits="userSpaceOnUse"
+			x="0" y="70" width="1.467" height="20">
+			<rect x="0" y="0" width="0.74" height="20" fill="#000000"/>
+			<rect x="0.73" y="0" width="0.73" height="20" fill="#ffffff"/>
+		</pattern>
+		<pattern id="grating20" patternUnits="userSpaceOnUse"
+			x="0" y="70" width="1.1" height="20">
+			<rect x="0" y="0" width="0.55" height="20" fill="#000000"/>
+			<rect x="0.55" y="0" width="0.55" height="20" fill="#ffffff"/>
+		</pattern>
+		<pattern id="grating25" patternUnits="userSpaceOnUse"
+			x="0" y="70" width="0.88" height="20">
+			<rect x="0" y="0" width="0.44" height="20" fill="#000000"/>
+			<rect x="0.44" y="0" width="0.44" height="20" fill="#ffffff"/>
+		</pattern>
+
+		<clipPath id="centercircle" clipPathUnits="userSpaceOnUse">
+			<circle cx="115" cy="65" r="60"/>
+		</clipPath>
+
+		<desc>construction of corner radials</desc>
+		<path id="ray" d="M0 0 L0.26 10 L-0.26 10 Z" fill="white"/>
+		<g id="rayquadrant">
+			<desc>one quadrant of rays</desc>
+			<use xlink:href="#ray" transform="rotate(-15)"/>
+			<use xlink:href="#ray" transform="rotate(-9)"/>
+			<use xlink:href="#ray" transform="rotate(-3)"/>
+			<use xlink:href="#ray" transform="rotate(3)"/>
+			<use xlink:href="#ray" transform="rotate(9)"/>
+			<use xlink:href="#ray" transform="rotate(15)"/>
+		</g>
+		<g id="radial">
+			<desc>put the lot together</desc>
+			<circle cx="0" cy="0" r="15" fill="#000000" stroke="#ffffff" stroke-width="1"/>
+			<use xlink:href="#rayquadrant" transform="scale(1.5)"/>
+			<use xlink:href="#rayquadrant" transform="scale(1.5) rotate(90)"/>
+			<use xlink:href="#rayquadrant" transform="scale(1.5) rotate(180)"/>
+			<use xlink:href="#rayquadrant" transform="scale(1.5) rotate(-90)"/>
+			<circle cx="0" cy="0" r="3.5" fill="#000000" stroke="#ffffff" stroke-width="0.5"/>
+			<circle cx="0" cy="0" r="2.5" fill="#000000" stroke="#ffffff" stroke-width="0.5"/>
+			<circle cx="0" cy="0" r="1.5" fill="#000000" stroke="#ffffff" stroke-width="0.5"/>
+		</g>
+
+	</defs>
+
+	<desc>background</desc>
+	<rect x="-5" y="-2.5" width="240" height="135" fill="#ffffff"/>
+	<rect x="0" y="0" width="230" height="130" fill="url(#bggrid)"/>
+	<desc>overscan</desc>
+	<rect x="-5" y="-2.5" width="5" height="135" fill="url(#vertbordergrid)"/>
+	<rect x="230" y="-2.5" width="5" height="135" fill="url(#vertbordergrid)"/>
+	<rect x="0" y="-2.5" width="240" height="5" fill="url(#horbordergrid)"/>
+	<rect x="0" y="130" width="240" height="5" fill="url(#horbordergrid)"/>
+
+	<desc>central circular pattern</desc>
+	<g clip-path="url(#centercircle)">
+		<!-- <rect x="55" y="5" width="120" height="120" fill="black"/> -->
+
+		<desc>place for upper caption</desc>
+		<rect x="75" y="5" width="80" height="15" fill="#ffffff"/>
+		<rect x="95" y="11" width="40" height="9" fill="#000000"/>
+		<text x="115" y="18" text-anchor="middle" font-family="Arial"
+			font-weight="bold" font-size="8" fill="#ffffff">LDO TV</text>
+		<rect x="65" y="20" width="20" height="10" fill="#000000"/>
+		<rect x="85" y="20" width="60" height="10" fill="#ffffff"/>
+		<rect x="89.25" y="20" width="1" height="10" fill="#000000"/>
+		<rect x="145" y="20" width="20" height="10" fill="#000000"/>
+
+		<rect x="60" y="30" width="110" height="10" fill="url(#uppercheck)"/>
+
+		<desc>big coloured squares</desc>
+		<rect x="55" y="40" width="20" height="20" fill="#ffff00"/>
+		<rect x="75" y="40" width="20" height="20" fill="#00ffff"/>
+		<rect x="95" y="40" width="20" height="20" fill="#00ff00"/>
+		<rect x="115" y="40" width="20" height="20" fill="#ff00ff"/>
+		<rect x="135" y="40" width="20" height="20" fill="#ff0000"/>
+		<rect x="155" y="40" width="20" height="20" fill="#0000ff"/>
+
+		<desc>graduated gratings</desc>
+		<rect x="55" y="70" width="5" height="20" fill="#000000"/>
+		<rect x="170" y="70" width="5" height="20" fill="#000000"/>
+		<rect x="60" y="70" width="22" height="20" fill="url(#grating5)"/>
+		<rect x="82" y="70" width="22" height="20" fill="url(#grating10)"/>
+		<rect x="104" y="70" width="22" height="20" fill="url(#grating15)"/>
+		<rect x="126" y="70" width="22" height="20" fill="url(#grating20)"/>
+		<rect x="148" y="70" width="22" height="20" fill="url(#grating25)"/>
+
+		<desc>centre cross-shaped grid with vertical middle line</desc>
+		<path
+			d="M50 60 L110 60 110.5 50.5 119.5 50.5 119.5 60 180 60 180 70 119.5 70 119.5 79.5 110.5 79.5 110.5 70 50 70Z"
+			fill="url(#centergrid)"/>
+		<rect x="114.5" y="50.5" width="1" height="29" fill="#ffffff"/>
+
+		<desc>graduated greyscale rectangles</desc>
+		<rect x="60" y="90" width="18" height="10" fill="#000000"/>
+		<rect x="78" y="90" width="19" height="10" fill="#333333"/>
+		<rect x="97" y="90" width="18" height="10" fill="#666666"/>
+		<rect x="115" y="90" width="19" height="10" fill="#999999"/>
+		<rect x="134" y="90" width="18" height="10" fill="#cccccc"/>
+		<rect x="152" y="90" width="18" height="10" fill="#ffffff"/>
+
+		<desc>place for lower caption</desc>
+		<rect x="60" y="100" width="110" height="10" fill="white"/>
+		<!--
+			<rect x="85" y="100" width="60" height="10" fill="black"/>
+			<text x="115" y="108" text-anchor="middle" font-family="Arial"
+				font-weight="bold" font-size="8" fill="#ffffff">DIGITAL</text>
+		-->
+
+		<rect x="70" y="110" width="90" height="20" fill="#ffff00"/>
+		<rect x="110" y="110" width="10" height="20" fill="#ff0000"/>
+	</g>
+
+	<desc>surrounding pastel rectangles</desc>
+	<rect x="50" y="10.5" width="9.5" height="19.5" fill="#4180be"/>
+	<rect x="40.5" y="10.5" width="9.5" height="54.5" fill="#41be80"/>
+	<rect x="40.5" y="65" width="9.5" height="54.5" fill="#be4180"/>
+	<rect x="50" y="100" width="9.5" height="19.5" fill="#be8041"/>
+
+	<rect x="170.5" y="10.5" width="9.5" height="19.5" fill="#4180be"/>
+	<rect x="180" y="10.5" width="9.5" height="54.5" fill="#80be41"/>
+	<rect x="180" y="65" width="9.5" height="54.5" fill="#8041be"/>
+	<rect x="170.5" y="100" width="9.5" height="19.5" fill="#be8041"/>
+
+	<desc>corner radials</desc>
+	<use xlink:href="#radial" transform="translate(20, 20)"/>
+	<use xlink:href="#radial" transform="translate(210, 20)"/>
+	<use xlink:href="#radial" transform="translate(20, 110)"/>
+	<use xlink:href="#radial" transform="translate(210, 110)"/>
+	
+</svg>
