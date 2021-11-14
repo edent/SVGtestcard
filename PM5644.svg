@@ -128,7 +128,7 @@
 
 		<desc>centre cross-shaped grid with vertical middle line</desc>
 		<path
-			d="M50 60 L110 60 110.5 50.5 119.5 50.5 119.5 60 180 60 180 70 119.5 70 119.5 79.5 110.5 79.5 110.5 70 50 70Z"
+			d="M50 60 L110.5 60 110.5 50.5 119.5 50.5 119.5 60 180 60 180 70 119.5 70 119.5 79.5 110.5 79.5 110.5 70 50 70Z"
 			fill="url(#centergrid)"/>
 		<rect x="114.5" y="50.5" width="1" height="29" fill="#ffffff"/>
 
